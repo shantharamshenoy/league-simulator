@@ -26,7 +26,7 @@ The goal is to produce league tables that resemble real football seasons while s
 
 # Screenshots
 
-## Final League Table
+## League Table (In Progress)
 
 <p align="center">
   <img src="docs/images/table.png" width="900">
