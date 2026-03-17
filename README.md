@@ -188,20 +188,20 @@ Open in Browser
 
 Planned enhancements include:
 
-~~ LS009 : Club Results Modal with filtering by Wins, Losses, Draws, Home and Away results ~~
-~~ LS010 : Simulation for remaining fixtures based on Real world fixtures and table as of 17th March 2026 ~~
-LS011 - League Insights Panel
-LS012 - Match Simulation Animation
-LS013 - Splash Screen with options to select Leagues
-LS014 - Championship & EFL League One (Only for fresh start not IRL)
-LS016 - Smarter Chaos mode
-LS017 - Timeline View (Season Story)
-LS017 - Club Profile Page (view form graph, results timeline, position over the season)
-LS018 - Save & Load Season
-LS019 - Share to Facebook/Instagram
-LS020 - WHAT IF!! Mode - Edit results manually.. lol!!!
-LS021 - Scenario Presets (Arsenal Bottle Job, Relegation to Champions League etc.. )
-LS022 - UI Micro Enhancements
+-~~LS009 : Club Results Modal with filtering by Wins, Losses, Draws, Home and Away results~~
+-~~LS010 : Simulation for remaining fixtures based on Real world fixtures and table as of 17th March 2026~~
+-LS011 - League Insights Panel
+-LS012 - Match Simulation Animation
+-LS013 - Splash Screen with options to select Leagues
+-LS014 - Championship & EFL League One (Only for fresh start not IRL)
+-LS016 - Smarter Chaos mode
+-LS017 - Timeline View (Season Story)
+-LS017 - Club Profile Page (view form graph, results timeline, position over the season)
+-LS018 - Save & Load Season
+-LS019 - Share to Facebook/Instagram
+-LS020 - WHAT IF!! Mode - Edit results manually.. lol!!!
+-LS021 - Scenario Presets (Arsenal Bottle Job, Relegation to Champions League etc.. )
+-LS022 - UI Micro Enhancements
 
 ---
 
