@@ -4,6 +4,8 @@ import Image from "next/image";
 type Props = {
   teams: Team[];
   seasonComplete?: boolean;
+  selectedTeamId?: string | null;
+  onSelectTeam?: (teamId: string) => void;
 };
 
 function getFormLetter(points: number): "W" | "D" | "L" {
@@ -58,6 +60,8 @@ function renderForm(form: number[]) {
 export default function LeagueTable({
   teams,
   seasonComplete = false,
+  selectedTeamId = null,
+  onSelectTeam,
 }: Props) {
   return (
     <div className="overflow-x-auto">
@@ -81,10 +85,11 @@ export default function LeagueTable({
         <tbody>
           {teams.map((team, index) => {
             const isChampion = seasonComplete && index === 0;
-            const isChampionsLeague = index >= 1 && index <= 3; // 2nd-4th
-            const isEuropaLeague = index === 4; // 5th
-            const isConferenceLeague = index === 5; // 6th
-            const isRelegation = index >= 17; // 18th-20th
+            const isChampionsLeague = index >= 1 && index <= 3;
+            const isEuropaLeague = index === 4;
+            const isConferenceLeague = index === 5;
+            const isRelegation = index >= 17;
+            const isSelected = selectedTeamId === team.id;
 
             let rowClass = "bg-white";
 
@@ -100,10 +105,16 @@ export default function LeagueTable({
               rowClass = "bg-red-50";
             }
 
+            if (isSelected) {
+              rowClass = "bg-sky-100";
+            }
+
             return (
               <tr
                 key={team.id}
-                className={`border-b border-slate-200 ${rowClass}`}
+                onClick={() => onSelectTeam?.(team.id)}
+                className={`border-b border-slate-200 ${rowClass} cursor-pointer transition hover:bg-sky-50`}
+                title={`View all results for ${team.name}`}
               >
                 <td className="px-3 py-2 font-medium">
                   {isChampion ? (
