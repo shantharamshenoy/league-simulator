@@ -64,10 +64,10 @@ Each match is simulated using a custom algorithm that considers several football
 
 Each club has four core attributes:
 
-OVR – Overall rating
-ATT – Attack strength
-MID – Midfield control
-DEF – Defensive strength
+OVR - Overall rating
+ATT - Attack strength
+MID - Midfield control
+DEF - Defensive strength
 
 
 Matchups consider attack vs defense and midfield dominance to generate expected goal values.
@@ -175,15 +175,33 @@ Open in Browser
 
 ---
 
+# Changelog
+
+## v0.2.0
+
+- 📊 **LS009 - Club Results View** - Drill into any team’s full season with smart filters and visual match outcomes
+- 🌍 **LS010 - IRL Snapshot Mode** - Start simulations from real-world standings with actual fixtures and results
+- ⚙️ **UX & Logic Enhancements** - Improved sorting, state handling, and layout responsiveness
+
+---
 # Future Improvements
 
 Planned enhancements include:
 
-- Multi-league support
-- Season history tracker
-- Simulate multiple seasons instantly
-- Statistical analysis of champions
-- Team Improvements or Decline
+~~ LS009 : Club Results Modal with filtering by Wins, Losses, Draws, Home and Away results ~~
+~~ LS010 : Simulation for remaining fixtures based on Real world fixtures and table as of 17th March 2026 ~~
+LS011 - League Insights Panel
+LS012 - Match Simulation Animation
+LS013 - Splash Screen with options to select Leagues
+LS014 - Championship & EFL League One (Only for fresh start not IRL)
+LS016 - Smarter Chaos mode
+LS017 - Timeline View (Season Story)
+LS017 - Club Profile Page (view form graph, results timeline, position over the season)
+LS018 - Save & Load Season
+LS019 - Share to Facebook/Instagram
+LS020 - WHAT IF!! Mode - Edit results manually.. lol!!!
+LS021 - Scenario Presets (Arsenal Bottle Job, Relegation to Champions League etc.. )
+LS022 - UI Micro Enhancements
 
 ---
 
